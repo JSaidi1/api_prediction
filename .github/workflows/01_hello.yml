@@ -1,22 +1,3 @@
-<<<<<<< HEAD
-name: Hello CI/CD
-on: push
-
-jobs:
-  hello:
-    name: Premier workflow
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Message de bienvenue
-        run: echo "Bienvenue dans la CI/CD pour l'API de satisfaction !"
-
-      - name: Afficher la date et l'heure
-        run: |
-          echo "Date : $(date '+%Y-%m-%d')"
-          echo "Heure : $(date '+%H-%M-%S')"
-          echo "timestamp complet : $(date)"
-=======
 # Nom pour le workflow
 name: Premier workflow
 # On précise quel est le déclencheur de notre workflow
@@ -46,4 +27,3 @@ jobs:
 #     steps:
 #       - name: Mon étape
 #         run: echo "Je suis un second job"
->>>>>>> bfc39e21b436c54cdade08e16cfa00ff39da3176
