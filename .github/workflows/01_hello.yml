@@ -15,7 +15,7 @@ jobs:
     steps:
       # On donne un nom à notre étape & une commande à effectuer
       - name: Dit bonjour
-        run: echo 'Bienvenue dans la CI/CD pour l'API de satisfaction !'
+        run: echo 'Bienvenue dans la CI/CD pour l\'API de satisfaction !'
       - name: Affiche la date
         run: date
 
